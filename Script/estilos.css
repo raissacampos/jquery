@@ -1,0 +1,19 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 225px;
+    background-color: #3B8FD9;
+    color: white;
+}
+
+#botao{
+    height: 25px;
+    background-color: #ACCAF2;
+    cursor:pointer;
+}
+
+p{
+    font-size: 20px;
+}
+

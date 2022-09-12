@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $("#conteudo").hide();
+
+            $("#link_abre").click(function () {
+
+                $("#conteudo").slideToggle("slow");
+            });
+        });
+        $(document).ready(function () {
+
+            $("#conteudo2").hide();
+
+            $("#link_abre2").click(function () {
+
+                $("#conteudo2").slideToggle("slow");
+            });
+        });
+        $(document).ready(function () {
+
+            $("#conteudo3").hide();
+
+            $("#link_abre3").click(function () {
+
+                $("#conteudo3").slideToggle("slow");
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <div id="navegador">
+        Navegador
+    </div>
+    <div class="principal">
+    <div class="esquerda">
+    <div id="container">
+
+        <div id="titulo">
+            <a id="link_abre" href="#">Clique aqui</a>
+        </div>
+
+        <div id="conteudo">
+            <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web
+            </p>
+        </div>
+    </div>
+
+    <div id="container2">
+
+        <div id="titulo">
+            <a id="link_abre2" href="#">Clique aqui</a>
+        </div>
+
+        <div id="conteudo2">
+            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser
+                interpretados por navegadores</p>
+        </div>
+    </div>
+
+
+    <div id="container3">
+
+        <div id="titulo">
+            <a id="link_abre3" href="#">Clique aqui</a>
+        </div>
+
+        <div id="conteudo3">
+            <p>Cascading Style Sheets é um mecanismo para adicionar estilo a um documento web.</p>
+        </div>
+    </div>
+</div>
+
+<div class="direita">
+    <h1>Página de Jquery</h1>
+    <img  src="jquery.jpg">
+</div>
+</div>
+</body>
+
+</html>
